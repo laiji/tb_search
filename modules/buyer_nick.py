@@ -82,7 +82,7 @@ class Create():
 		#basic control
 		keywordsLabel = wx.StaticText(panel, -1, u"关键词:")  
 		keywordsText = wx.TextCtrl(panel, -1)
-		fromLabel = wx.StaticText(panel, -1, u"搜索源:")  
+		fromLabel = wx.StaticText(panel, -1, u"搜索源:")
 		fromText = wx.RadioButton(panel, -1,u'淘宝',style=wx.RB_GROUP,name='taobao')
 		fromText2 = wx.RadioButton(panel, -1,u'天猫',name='tmall')
 		SearchBtn=wx.Button(panel,-1,u'搜索',size=(50,25))

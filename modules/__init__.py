@@ -1,1 +1,1 @@
-__all__ = ["buyer_nick"]
+__all__ = ["buyer_nick","downpic"]
